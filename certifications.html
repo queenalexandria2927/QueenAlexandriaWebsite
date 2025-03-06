@@ -3,14 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certifications</title>
+    <title>Certifications - QueenAlexandria</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+        @import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
         body {
             background-color: pink;
             margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Dancing Script', cursive;
+            position: relative;
         }
+
+        h1 {
+            font-size: 80px;
+            color: white;
+            text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 15px 40px;
+            font-size: 30px;
+            font-family: 'Dancing Script', cursive;
+            color: white;
+            background-color: #ff66b2;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: #ff3385;
+            transform: scale(1.1);
+        }
+
+        .footer-text {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 18px;
+            font-family: 'Minecraft', sans-serif;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .certifications-list {
+            margin-top: 50px;
+            font-size: 24px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .certifications-list li {
+            margin: 10px 0;
+        }
+
     </style>
 </head>
 <body>
+    <h1>My Certification</h1>
+
+    <ul class="certifications-list">
+        <li>CompTIA IT Fundamentals - November 5th, 2024</li>
+    </ul>
+
+    <a href="index.html" class="btn">Back to Home</a>
+
+    <p class="footer-text">Made with love by Alexandria</p>
 </body>
 </html>
